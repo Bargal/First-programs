@@ -1,6 +1,8 @@
 #include "stdafx.h"
 
-float liczbaA()  //wczytanie liczby z klawiatury + sprawdzenie b³êdu.
+//wczytanie liczby z klawiatury + sprawdzenie b³êdu.
+
+float liczbaA()  
 {
 	float a;
 	bool test;

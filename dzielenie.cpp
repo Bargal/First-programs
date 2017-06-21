@@ -1,6 +1,8 @@
 #include "stdafx.h"
 
-float DzielenieO(float b, int c)//wykluczenie dzielenia przez zero
+//wykluczenie dzielenia przez zero
+
+float DzielenieO(float b, int c)
 {
 	for (; b == 0 && c == 4;)
 	{
@@ -9,5 +11,4 @@ float DzielenieO(float b, int c)//wykluczenie dzielenia przez zero
 		std::cin >> b;
 	}
 	return b;
-
 }

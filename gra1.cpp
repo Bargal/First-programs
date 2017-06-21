@@ -7,10 +7,8 @@ void zgadnijLiczbe()
 	int Podejscie = 0;
 	bool Wygrana = true;
 
-
 	std::cout << "Wygenerowalem liczbe losowa z zakresu 1 - 100\nOdgadnij ta liczbe w jak najmniejszej ilosci ruchow\n";
 	std::cout << "tylko do testow" << WylosowanaLiczba << std::endl; //do testow ########################################################
-
 
 	do
 	{
@@ -25,12 +23,10 @@ void zgadnijLiczbe()
 		if (PodanaLiczba < WylosowanaLiczba)
 			std::cout << "wylosowana liczna jest wieksza niz " << PodanaLiczba << std::endl;
 
-
 		Podejscie++;
 
 	} while (PodanaLiczba != WylosowanaLiczba);
 
 	std::cout << "Trafiles, wylosowana liczba to " << WylosowanaLiczba << std::endl;
 	std::cout << "udalo ci sie wygrac w " << Podejscie << " podejsciach" << std::endl;
-
 }

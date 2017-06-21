@@ -5,8 +5,6 @@
 float DzielenieO(float b, int c);//wykluczenie dzielenia przez zero
 int IMenu(); // wybór z menu
 
-
-
 void kalkulator()
 {
 
@@ -17,7 +15,6 @@ void kalkulator()
 
 	do
 	{
-
 		std::cout << "\n\nprogram wykonuje podstawowe dzialania matematyczne na liczbach a i b \n\n";
 
 		//wywo³ania funkcji

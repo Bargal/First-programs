@@ -1,5 +1,3 @@
-// ConsoleApplication3.cpp: Okreœla punkt wejœcia dla aplikacji konsoli.
-//
 
 #include "stdafx.h"
 

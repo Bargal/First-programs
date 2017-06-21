@@ -22,7 +22,6 @@ void menuGlowne()
 
 		do
 		{
-
 			std::cout << "\n>>";
 			c = liczbaA();
 			zadanie = (c == 1 || c == 2 || c == 3 || c == 4 || c == 0);
@@ -48,5 +47,4 @@ void menuGlowne()
 			}
 		} while (!zadanie);
 	} while (c != 0);
-
 }
